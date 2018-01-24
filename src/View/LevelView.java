@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Ellipse2D;
 
-public class Level extends JPanel {
+public class LevelView extends JPanel {
 
     @Override
     public void paintComponent(Graphics graphics){

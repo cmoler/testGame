@@ -1,3 +1,5 @@
+import View.LevelView;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -8,7 +10,7 @@ public class Game extends JFrame{
     }
 
     private void initUI(){
-        add(new View.Level());
+        add(new LevelView());
 
         setSize(250,200);
 
