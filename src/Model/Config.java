@@ -11,4 +11,12 @@ public class Config {
         this.bricks = bricks;
         this.paddle = paddle;
     }
+
+    public Paddle getPaddle(){
+        return paddle;
+    }
+
+    public List<Brick> getBricks(){
+        return bricks;
+    }
 }

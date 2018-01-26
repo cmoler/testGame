@@ -42,4 +42,12 @@ public class LevelView extends JPanel {
             graphics2D.draw(affineTransform.createTransformedShape(ellipse2D));
         }
     }
+
+    public void notifyScoreChanged(int score){
+
+    }
+
+    public void notifyDataChanged(){
+
+    }
 }

@@ -1,3 +1,5 @@
+package util;
+
 import Model.Brick;
 import Model.Config;
 import Model.Paddle;
@@ -8,9 +10,9 @@ import java.util.ArrayList;
 
 public class Utils {
 
-    public static final URL BALL_IMAGE_URL = Utils.class.getResource("resources/ball.png");
-    public static final URL BRICK_IMAGE_URL = Utils.class.getResource("resources/brick.png");
-    public static final URL PADDLE_IMAGE_URL = Utils.class.getResource("resources/paddle.png");
+    //public static final URL BALL_IMAGE_URL = util.Utils.class.getResource("resources/ball.png");
+    //public static final URL BRICK_IMAGE_URL = util.Utils.class.getResource("resources/brick.png");
+    //public static final URL PADDLE_IMAGE_URL = util.Utils.class.getResource("resources/paddle.png");
     public static final int TILE_WIDTH = 10;
     public static final int TILE_HEIGHT = 5;
     public static final int PADDLE_WIDTH = 10;
@@ -64,4 +66,5 @@ public class Utils {
 
         return config;
     }
+
 }

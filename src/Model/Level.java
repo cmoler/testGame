@@ -7,6 +7,7 @@ public class Level {
     private static int score;
     private static Level level = null;
 
+    private Config levelConfig;
     private LevelView levelView;
 
     public Level() {}
@@ -18,8 +19,8 @@ public class Level {
         return level;
     }
 
-    public void initLevel(){
-
+    public void initLevel(Config config){
+        levelConfig = config;
     }
 
 }

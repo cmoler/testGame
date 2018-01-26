@@ -13,4 +13,19 @@ public class Paddle {
         this.width = width;
         this.height = height;
     }
+
+    public void move(DIRECTION direction){
+        if(direction == DIRECTION.LEFT){
+            checkCollision();
+            this.x -= 5;
+        }
+        else if(direction == DIRECTION.RIGHT){
+            checkCollision();
+            this.x += 5;
+        }
+    }
+
+    private boolean checkCollision(){
+        return true;
+    }
 }
